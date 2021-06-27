@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="resources/bootstrap/all.min.css">
+    <link rel="stylesheet" href="resources/bootstrap/fontawesome.min.css">
+    <link rel="stylesheet" href="resources/bootstrap/bootstrap-social.css">
+    <link rel="stylesheet" href="resources/bootstrap/bootstrap-social.min.css.map">
+    <link rel="stylesheet" href="resources/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <title>Agrec Gourmet | Home</title>
+</head>
+
+<body>
+
+    <header class="container" id="header">
+        <a class="navbar-brand m-lg-auto mr-auto p-0" href="#"><img class="img-fluid" src="./resources/images/logo.png"></a>
+
+        <button disabled class="navbar-toggler navdisplay ml-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" data-interval="false">
+                <div></div>
+            </button>
+
+        <nav class="navbar navbar-expand-lg setwidth m-auto">
+            <div class="collapse navbar-collapse row" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    <li><a href="index.html" onclick="navhide()"><button disabled class="butt nav-a">Home</button></a></li>
+                    <li><a href="index.html#about" onclick="navhide()"><button disabled class="butt aboutus">About Us</button></a></li>
+                    <li><a href="#" onclick="navhide()"><button disabled class="butt">Kir-Kiri</button></a></li>
+                    <li><a href="#" onclick="navhide()"><button disabled class="butt">Contact Us</button></a></li>
+                    <li class="dropdown">
+                        <button disabled id="my-dropdown" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Imported Food</button>
+                        <div class="dropdown-menu" aria-labelledby="my-dropdown">
+                            <a class="dropdown-item active" onclick="navhide()" href="#">Beverages</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Biscuits</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Candies</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Cereals</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Chocolates</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Chips</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Groceries</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Coffee</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Sauces & Syrups</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Spices</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Spreads</a>
+                            <a class="dropdown-item" onclick="navhide()" href="#">Vinegar & Oil</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="m-auto login-signup d-none d-lg-block"><a href="#"><button disabled>Login</button></a><a href="#"><button>Sign-up</button></a></div>
+    </header>
+
+    <div class="home container-fluid p-0 d-flex flex-wrap">
+        <div class="col-lg-6 pt-4 d-flex p-md-5">
+            <div class="logo-tagline text-left pl-md-4">
+                <h6 class="welcome mb-1">Best Quality Gourmet Products at</h6>
+                <h1 class="mb-2">Agrec Gourmet</h1>
+                <h5>Amazing Variety Of Gourmet Food And Luxury Spices Starting At An Affordable Price.</h5>
+                <div class="d-flex flex-wrap mt-3 login-signup">
+                    <button>Shop Now</button>
+                    <button disabled class="show-promo-button" onclick="showPromoCodes()">Promo Codes</button>
+                    <div class="mt-auto ml-md-auto ml-0 mb-auto mr-2 login-signup d-lg-none"><a href="#"><button>Login</button></a><a href="#"><button>Sign-up</button></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 d-flex promo-codes">
+            <div class="col-12 m-auto d-flex flex-wrap" id="promo">
+                <div class="card m-auto col-12 p-lg-4 p-md-3 row flex-row">
+                    <!-- <div class="card promo-card col-12">
+                        <div class="card-body">
+                            <h3 class="card-title">15% Off on Spices</h3>
+                            <p class="card-text mb-1">Upto Rs. 500/-</p>
+                            <p class="card-text mb-0">Valid on Orders with items worth Rs. 1500/- or More</p>
+                            <button disabled class="copy-code"><i class="far fa-copy"></i>&nbsp;Copy</button>
+                        </div>
+                    </div>-->
+                    <h2 class="col-12">Website Under Maintainence</h2>
+                    <p class="col-12">To place an order or for queries please contact us at: </p>
+                    <div class="col-md-6 border-right">
+                        <h5 class="mb-2">Email</h5>
+                        <ul type="none">
+                            <a href="mailto:info@agrecgourmet.com"><li class="mb-1">info@agrecgourmet.com</li></a>
+                            <a href="mailto:sales@agrecgourmet.com"><li>sales@agrecgourmet.com</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mb-2">Phone</h5>
+                        <ul type="none">
+                            <a href="tel:+919493867111">
+                                <li class="mb-1">+91 94938 67111</li>
+                            </a>
+                            <a href="tel:+919493869111">
+                                <li>+91 94938 97111</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories container-fluid p-0 pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 ml-auto mr-auto">
+                    <div class="card">
+                        <img src="./resources/images/background/imported-food.jpg" alt="Imported Food">
+                        <div class="card-body pl-4 pr-4 pb-4">
+                            <h3 class="card-title">Imported Food</h3>
+                            <p class="card-text mb-4">We Summon For You A Wide Range Of Imported Products Found Across The World.</p>
+                            <!-- <a href="#" class="category-button" disabled >Shop Now</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 ml-auto mr-auto">
+                    <div class="card">
+                        <img src="./resources/images/background/spices.jpg" class="img-fluid" alt="Spices">
+                        <div class="card-body pl-4 pr-4 pb-4">
+                            <h3 class="card-title">Spices</h3>
+                            <p class="card-text mb-4">Adding Spice And Quality To Your Food And Life. Look at our Spices and Condiments Now.</p>
+                            <!-- <a href="#" class="category-button" disabled >Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 ml-auto mr-auto">
+                    <div class="card">
+                        <img src="./resources/images/background/250x167.png" class="img-fluid" alt="Imported Food">
+                        <div class="card-body pl-4 pr-4 pb-4">
+                            <h3 class="card-title">About Us</h3>
+                            <p class="card-text mb-4">A Vision And Mission To Provide You The Finest Quality Of Spices And Food.</p>
+                            <!-- <a href="#" class="category-button" disabled >Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid offers p-0 pt-3 pb-3">
+        <div class="container">
+            <h1>Offers</h1>
+            <div class="row">
+                <div class="col-lg-6 mb-4 ml-auto mr-auto">
+                    <div class="card">
+                        <img src="./resources/images/placeholders/1920x1080.png" alt="Dubai Offer">
+                        <div class="card-body pl-4 pr-4 pb-4">
+                            <h6>August 19th</h6>
+                            <h4 class="card-title">Win a luxury trip to Dubai*</h4>
+                            <p class="card-text">Indulge in a rich experience that UAE has to offer. Win Flights and 4 Days stay at a 5 Star Hotel!</p>
+                            <!-- <a href="#" class="category-button" disabled >Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4 ml-auto mr-auto">
+                    <div class="card">
+                        <img src="./resources/images/placeholders/1920x1080.png" alt="Dubai Offer">
+                        <div class="card-body pl-4 pr-4 pb-4">
+                            <h6>August 19th</h6>
+                            <h4 class="card-title">Win a 55" 4K Smart TV*</h4>
+                            <p class="card-text">Get A Chance To Take Home A 55 inch Smart Tv while Purchasing Your Favorite Products!</p>
+                            <!-- <a href="#" class="category-button" disabled >Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4 ml-auto mr-auto">
+                    <div class="card">
+                        <img src="./resources/images/placeholders/1920x1080.png" alt="Dubai Offer">
+                        <div class="card-body pl-4 pr-4 pb-4">
+                            <h6>August 19th</h6>
+                            <h4 class="card-title">Win Airpods Pro*</h4>
+                            <p class="card-text">Get a chance to win Apple Airpods Pro!</p>
+                            <!-- <a href="#" class="category-button" disabled >Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid testimonials pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-lg-auto mt-md-auto mb-md-3 height-content">
+                    <h1>Happy Customers</h1>
+                    <h6>Reviews of Kir-Kiri from our Privileged Customers</h6>
+                </div>
+                <div class="col-lg-6 mb-4 ml-auto mr-auto">
+                    <div class="card d-flex flex-wrap flex-row col-12 p-0">
+                        <img class="col-sm-4 p-0 img-fluid" src="./resources/images/placeholders/256x256.png" alt="">
+                        <div class="card-body col-sm-8">
+                            <h3 class="card-title">Adhira Jain</h3>
+                            <hr>
+                            <div class="card-text mb-2">Nutritionist</div>
+                            <blockquote class="card-text">Would recommend for weight loss.</blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4 ml-auto mr-auto">
+                    <div class="card d-flex flex-wrap flex-row col-12 p-0">
+                        <img class="col-sm-4 p-0 img-fluid" src="./resources/images/placeholders/256x256.png" alt="">
+                        <div class="card-body col-sm-8">
+                            <h3 class="card-title">Taara Kapoor</h3>
+                            <hr>
+                            <div class="card-text mb-2">Doctor</div>
+                            <blockquote class="card-text">A nice boost for my Immune system.</blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4 ml-auto mr-auto">
+                    <div class="card d-flex flex-wrap flex-row col-12 p-0">
+                        <img class="col-sm-4 p-0 img-fluid" src="./resources/images/placeholders/256x256.png" alt="">
+                        <div class="card-body col-sm-8">
+                            <h3 class="card-title">Jay Singh</h3>
+                            <hr>
+                            <div class="card-text mb-2">Student</div>
+                            <blockquote class="card-text">I was suggested to use this by my friend and i thank him for this suggestion.</blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <img src="./resources/images/Screenshot.png" alt=""> -->
+
+    <footer class="container-fluid pt-4">
+        <div class="container pt-4">
+            <div class="row pb-4">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3">Services Offered</h4>
+                    <ul type="none">
+                        <li>Web Development</li>
+                        <li>Mobile App Development</li>
+                        <li>Search Engine Optimization</li>
+                        <li>Social Media Marketing</li>
+                        <li>Google Ads</li>
+                        <li>Instagram Ads</li>
+                        <li>Email Marketing</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 mt-3 mt-md-0 mb-3">Connect With Us</h4>
+                    <div class="d-flex">
+                        <a target="_blank" href="https://m.facebook.com/" class="btn btn-social-icon btn-facebook">
+                            <span class="fa fa-facebook" aria-hidden="true"></span>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/ctrlaltcreate.in/" class="btn btn-social-icon btn-instagram">
+                            <span class="fa fa-instagram" aria-hidden="true"></span>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/company/ctrl-altcreate/" class="btn btn-social-icon btn-linkedin">
+                            <span class="fa fa-linkedin" aria-hidden="true"></span>
+                        </a>
+                        <a target="_blank" href="https://www.twitter.com/CtrlAltCreate_" class="btn btn-social-icon btn-twitter">
+                            <span class="fa fa-twitter" aria-hidden="true"></span>
+                        </a>
+                        <a target="_blank" href="https://wa.me/6305455130" class="btn btn-social-icon btn-whatsapp">
+                            <span class="fa fa-whatsapp" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div class="pt-md-4 pt-2">
+                        <a href="tel:+919493867111">
+                            <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;+91 94938 67111
+                        </a>
+                    </div>
+                    <div class="pt-2">
+                        <a href="tel:+919493869111">
+                            <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;+91 94938 97111</a>
+                        </a>
+                    </div>
+                    <div class="pt-2">
+                        <a href="mailto:info@agrecgourmet.com">
+                            <i class="fa fa-envelope-open-text" aria-hidden="true"></i>&nbsp;&nbsp;info@agrecgourmet.com
+                        </a>
+                    </div>
+                    <div class="pt-2">
+                        <a href="mailto:sales@agrecgourmet.com">
+                            <i class="fa fa-envelope-open-text" aria-hidden="true"></i>&nbsp;&nbsp;sales@agrecgourmet.com
+                        </a>
+                    </div>
+                    <div class="pt-md-4 pt-2">
+                        <h5>GSTIN: 36CCRPJ7218N1ZV</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mt-3 mt-lg-0 mb-3">Our Products</h4>
+                    <h3>Coming Soon</h3>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <h4 class="mt-3 mt-lg-0 mb-3 text-center">Thank You</h4>
+                    <img src="./resources/images/logo.png" width="" height="" alt="Ctrl ALt Create" class="img-fluid mb-3">
+                    <h3 class="name">Agrec Gourmet</h3>
+                </div>
+            </div>
+            <p class="copyright p-3 text-center mb-0">
+                Copyright © 2021 Agrec Gourmet. All rights reserved. Website Designed by <a target="_blank" href="https://ctrlaltcreate.in">Ctrl Alt Create</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="resources/bootstrap/fontawesome.min.js"></script>
+    <script src="resources/bootstrap/jquery.min.js"></script>
+    <script src="resources/bootstrap/popper.min.js"></script>
+    <script src="resources/bootstrap/bootstrap.min.js"></script>
+    <script src="resources/javascripts/main.js"></script>
+
+</body>
+
+</html>
