@@ -1088,7 +1088,8 @@ footer li {
 footer .col-lg-4.col-md-6:nth-child(1),
 footer .col-lg-4.col-md-6:nth-child(2),
 footer .col-lg-4.col-md-6:nth-child(3) {
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    /* border-left: 1px solid rgba(255,255,255, 0.3);
+    border-right: 1px solid rgba(255,255,255, 0.3); */
     text-align: center;
 }
 
@@ -1110,7 +1111,7 @@ footer .btn .fa {
 }
 
 footer .pt-md-4.pb-md-4 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 footer img {
@@ -1121,19 +1122,12 @@ footer .name {
     font-family: 'Montserrat';
 }
 
-footer .row {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
 .copyright {
     font-size: small;
     color: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width:800px) {
-    footer .col-lg-4.col-md-6 {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    }
     footer .col-lg-4.col-md-6:nth-child(even) {
         border-right: none;
     }
@@ -1364,4 +1358,20 @@ footer a{
 footer li {
     cursor: no-drop;
     font-size: large;
+}
+
+footer {
+    background-color: rgb(34, 30, 30);
+}
+
+footer *:not(a){
+    color: #fff!important;
+}
+
+footer a:hover{
+    color: #fff;
+} 
+
+footer p a{
+    color: #d4af37!important;
 }
