@@ -1085,10 +1085,11 @@ footer li {
     font-size: medium;
 }
 
-footer .col-lg-3.col-md-6:nth-child(1),
-footer .col-lg-3.col-md-6:nth-child(2),
-footer .col-lg-3.col-md-6:nth-child(3) {
+footer .col-lg-4.col-md-6:nth-child(1),
+footer .col-lg-4.col-md-6:nth-child(2),
+footer .col-lg-4.col-md-6:nth-child(3) {
     border-right: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 footer .btn {
@@ -1130,10 +1131,10 @@ footer .row {
 }
 
 @media screen and (max-width:800px) {
-    footer .col-lg-3.col-md-6 {
+    footer .col-lg-4.col-md-6 {
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     }
-    footer .col-lg-3.col-md-6:nth-child(even) {
+    footer .col-lg-4.col-md-6:nth-child(even) {
         border-right: none;
     }
     footer .row {
@@ -1142,9 +1143,9 @@ footer .row {
 }
 
 @media screen and (max-width:766px) {
-    footer .col-lg-3.col-md-6:nth-child(1),
-    footer .col-lg-3.col-md-6:nth-child(2),
-    footer .col-lg-3.col-md-6:nth-child(3) {
+    footer .col-lg-4.col-md-6:nth-child(1),
+    footer .col-lg-4.col-md-6:nth-child(2),
+    footer .col-lg-4.col-md-6:nth-child(3) {
         border-right: none;
     }
     footer .pt-md-4.pb-md-4 {
@@ -1358,4 +1359,9 @@ h2 {
 
 footer a{
     color: #d4af37;
+}
+
+footer li {
+    cursor: no-drop;
+    font-size: large;
 }
